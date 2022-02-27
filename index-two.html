@@ -4,7 +4,382 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project-Botstrap</title>
+    <title>Project-Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="" class="navbar-brand">Logo</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#myMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="myMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">Contact</a></li>
+            <li>
+              <a
+                href=""
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modal-second"
+                >Sign in</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#modal"
+                >Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-08">
+            <div class="card card-body">
+              <ul class="nav nav-tabs">
+                <li>
+                  <a href="#asok" class="nav-link" data-toggle="tab">Asok</a>
+                </li>
+                <li>
+                  <a href="#shila" class="nav-link" data-toggle="tab">Shila</a>
+                </li>
+                <li>
+                  <a href="#mamun" class="nav-link active" data-toggle="tab"
+                    >mamun</a
+                  >
+                </li>
+                <li>
+                  <a href="#sudipto" class="nav-link" data-toggle="tab"
+                    >sudipto</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane fade" id="asok">
+                  <p class="text-justify">
+                    দ্বাদশ জাতীয় সংসদ নির্বাচনে সব দলকে অংশ নেওয়ার আহ্বান
+                    জানিয়েছেন সদ্য নিয়োগ পাওয়া প্রধান নির্বাচন কমিশনার (সিইসি)
+                    কাজী হাবিবুল আউয়াল।
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="shila">
+                  <p class="text-justify">
+                    ইউক্রেনে সামরিক অভিযান শুরু করায় রাশিয়ার ওপর নিষেধাজ্ঞা আরোপ
+                    করেছে যুক্তরাষ্ট্র, যুক্তরাজ্য, ইউরোপীয় ইউনিয়ন, জাপানসহ
+                    বিভিন্ন দেশ ও সংগঠন।
+                  </p>
+                </div>
+                <div class="tab-pane fade show active" id="mamun">
+                  <p class="text-justify">
+                    বেলজিয়ামভিত্তিক আন্তর্জাতিক প্রতিষ্ঠান সোসাইটি ফর
+                    ওয়ার্ল্ডওয়াইড ইন্টারব্যাংক ফিন্যান্সিয়াল টেলিকমিউনিকেশন বা
+                    সুইফট হলো.
+                  </p>
+                </div>
+
+                <div class="tab-pane fade" id="sudipto">
+                  <p class="text-justify">
+                    ৪ থেকে ১৪ বছর ধরে পদ্মা সেতু প্রকল্পে কাজ করছেন তাঁরা।
+                    দেশে-বিদেশে প্রশিক্ষণ নিয়েছেন। দক্ষতা, অভিজ্ঞতা ও কারিগরি
+                    জ্ঞান অর্জন করেও পদ্মা!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card card-body">
+              <ul class="nav nav-pills">
+                <li>
+                  <a href="#home" class="nav-link active" data-toggle="pill"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#about" class="nav-link" data-toggle="pill">About</a>
+                </li>
+                <li>
+                  <a href="#contact" class="nav-link" data-toggle="pill"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="home">
+                  <p>
+                    রুশ সৈন্যরা ইউক্রেনের দ্বিতীয় বৃহত্তম শহর খারকিভে ঢুকে
+                    পড়েছে। স্থানীয় সরকারি কর্মকর্তাদের বরাত দিয়ে বিবিসির
+                    প্রতিবেদনে এ খবর জানানো হয়েছে।
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="about">
+                  <p>
+                    বিবিসির প্রতিবেদন অনুযায়ী খারকিভের আঞ্চলিক প্রশাসনের প্রধান
+                    ওলেগ সিনেগুবোভ বলেছেন, রাশিয়ার হালকা কিছু সামরিক যান শহরের
+                    ভেতর ঢুকেছে।
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="contact">
+                  <p>
+                    এ প্রসঙ্গে যুক্তরাষ্ট্রের ওয়াশিংটনভিত্তিক প্রতিষ্ঠান মিডল
+                    ইস্ট ইনস্টিটিউট বলছে, ইউক্রেন সংকটের কারণে যদি গমের সরবরাহ
+                    ব্যাহত হয়, তাহলে মধ্যপ্রাচ্য ও উত্তর আফ্রিকার বেশ কয়েকটি
+                    দেশে খাদ্যসংকটের জন্য নতুন করে বিক্ষোভ শুরু হতে পারে এবং
+                    পরিস্থিতি অস্থিতিশীল হতে পারে।
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="accordion" id="accordionDiv">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <button
+                      type="button"
+                      class="btn btn-link btn-block text-left"
+                      data-toggle="collapse"
+                      data-target="#username"
+                    >
+                      What is your name?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse show"
+                  id="username"
+                  data-parent="#accordionDiv"
+                >
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium pariatur animi at numquam quaerat quia, vitae
+                      recusandae unde, expedita non veritatis quod. Atque
+                      architecto mollitia enim nostrum nisi sint officia!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <button
+                      type="button"
+                      class="btn btn-link btn-block text-left"
+                      data-toggle="collapse"
+                      data-target="#useremail"
+                    >
+                      What is your Email?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse"
+                  id="useremail"
+                  data-parent="#accordionDiv"
+                >
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium pariatur animi at numquam quaerat quia, vitae
+                      recusandae unde, expedita non veritatis quod. Atque
+                      architecto mollitia enim nostrum nisi sint officia!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <button
+                      type="button"
+                      class="btn btn-link btn-block text-left"
+                      data-toggle="collapse"
+                      data-target="#useraddress"
+                    >
+                      What is address?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse"
+                  id="useraddress"
+                  data-parent="#accordionDiv"
+                >
+                  <div class="card-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium pariatur animi at numquam quaerat quia, vitae
+                      recusandae unde, expedita non veritatis quod. Atque
+                      architecto mollitia enim nostrum nisi sint officia!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal has been last content    -->
+    <div
+      class="modal fade"
+      data-backdrop="static"
+      data-keyboard="false"
+      id="modal"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Registration Form</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group row">
+                <label for="name" class="col-md-4 col-form-label"
+                  >full Name</label
+                >
+
+                <div class="col-md-8">
+                  <input type="text" id="name" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-md-4 col-form-label">Email</label>
+                <div class="col-md-8">
+                  <input type="email" id="email" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="phone" class="col-md-4 col-form-label">Phone</label>
+                <div class="col-md-8">
+                  <input type="number" id="phone" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="password" class="col-md-4 col-form-label"
+                  >Password</label
+                >
+                <div class="col-md-8">
+                  <input type="password" id="password" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="address" class="col-md-4 col-form-label"
+                  >Address</label
+                >
+                <div class="col-md-8">
+                  <textarea
+                    class="form-control"
+                    id="address"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- <div class="form-group row">
+                <label for="" class="col-md-4"></label>
+                <div class="col-md-8">
+                  <input
+                    type="button"
+                    class="btn btn-outline-warning btn-block"
+                    value="submit"
+                  />
+                </div>
+              </div> -->
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Submit</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      data-backdrop="static"
+      data-keyboard="false"
+      id="modal-second"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Sign in</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group row">
+                <label for="email" class="col-md-4 col-form-label">Email</label>
+                <div class="col-md-8">
+                  <input type="email" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="password" class="col-md-4 col-form-label"
+                  >Password</label
+                >
+                <div class="col-md-8">
+                  <input type="password" class="form-control" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info">Sign in</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2:26:17 c=13 -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
 </html>
